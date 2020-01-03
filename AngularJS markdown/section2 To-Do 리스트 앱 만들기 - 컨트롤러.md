@@ -38,7 +38,7 @@ body 태그 내부의 코드 중에서 Angular Directive를 찾아서 해석하�
 </body>
 ```
 
-_결과 :_      ![image-20200103100942372](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103100942372.png) {:.alignleft}
+_결과 :_      ![image-20200103100942372](.\img\image-20200103100942372.png) {:.alignleft}
 
 
 
@@ -147,7 +147,7 @@ createdAt에는 todo가 생성된 시간이 들어감.
 </body>
 ```
 
-_결과 :_      ![image-20200103104316341](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103104316341.png) {:.alignleft}
+_결과 :_      ![image-20200103104316341](.\img\image-20200103104316341.png) {:.alignleft}
 
 
 
@@ -164,7 +164,7 @@ _프론트 정리_
 </body>
 ```
 
-_결과 :_      ![image-20200103104624860](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103104624860.png)
+_결과 :_      ![image-20200103104624860](.\img\image-20200103104624860.png)
 
 
 
@@ -192,7 +192,7 @@ input 태그에 todo.title 변수를 model로 바인딩한 상태
 
 
 
-_결과_ :     ![image-20200103105452793](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103105452793.png)
+_결과_ :     ![image-20200103105452793](.\img\image-20200103105452793.png)
 
 input 박스 안에 있는 값을 변경시 $scope.todo.title의 값도 변경이 된다.
 

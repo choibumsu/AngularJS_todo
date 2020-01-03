@@ -36,7 +36,7 @@ HTML에서는 카멜 케이스 말고 '-'를 이용하여 구분
 
 todo-title directive는 template 속성값으로 치환됨
 
-_결과 :_      ![image-20200103135305620](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103135305620.png)
+_결과 :_      ![image-20200103135305620](.\img\image-20200103135305620.png)
 
 
 

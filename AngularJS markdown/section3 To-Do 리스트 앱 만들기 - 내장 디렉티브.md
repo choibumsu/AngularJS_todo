@@ -59,7 +59,7 @@ ng-repeat dirctive를 이용하여 todos 배열 안에 있는 todo 객체들을 
 
 
 
-_결과_ :     ![image-20200103111145718](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103111145718.png)
+_결과_ :     ![image-20200103111145718](.\img\image-20200103111145718.png)
 
 
 
@@ -99,7 +99,7 @@ _결과_ :     ![image-20200103111145718](C:\Users\bumsu\AppData\Roaming\Typora\
 
 
 
-![image-20200103112138205](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103112138205.png)
+![image-20200103112138205](.\img\image-20200103112138205.png)
 
 
 
@@ -115,7 +115,7 @@ _결과_ :     ![image-20200103111145718](C:\Users\bumsu\AppData\Roaming\Typora\
 <date>{{ todo.createdAt | date: 'yyyy-mm-dd HH:mm:ss' }}</date>
 ```
 
-_결과 :_       ![image-20200103112544906](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103112544906.png)
+_결과 :_       ![image-20200103112544906](.\img\image-20200103112544906.png)
 
 
 
@@ -227,7 +227,7 @@ ng-repeat directive에 statusFilter라는 변수를 할당함.
 
 
 
-![image-20200103115654871](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103115654871.png)
+![image-20200103115654871](.\img\image-20200103115654871.png)
 
 
 

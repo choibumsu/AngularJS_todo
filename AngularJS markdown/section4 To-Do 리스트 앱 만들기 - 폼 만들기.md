@@ -100,7 +100,7 @@ AngularJS에서 form에 할당한 name인 'todoForm'은 $scope.todoForm으로 �
 <pre>{{ todoForm | json }}</pre>
 ```
 
-_결과 :_      ![image-20200103121759887](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103121759887.png)
+_결과 :_      ![image-20200103121759887](.\img\image-20200103121759887.png)
 
 form에서 기본적으로 사용하는 변수들이 들어가 있음
 
@@ -140,7 +140,7 @@ $로 선언된 변수는 AngluarJS에서 사용하는 키워드
 
 
 
-_결과 :_      ![image-20200103122833779](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103122833779.png)
+_결과 :_      ![image-20200103122833779](.\img\image-20200103122833779.png)
 
 
 
@@ -152,7 +152,7 @@ _결과 :_      ![image-20200103122833779](C:\Users\bumsu\AppData\Roaming\Typora
 
 **입력값이 검증되지 않은 경우**
 
-![image-20200103123155173](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103123155173.png)
+![image-20200103123155173](.\img\image-20200103123155173.png)
 
 
 
@@ -164,7 +164,7 @@ form 태그에 대해서 ng-invalid 클래스가 추가됨
 
 **입력값이 검증된 경우**
 
-![image-20200103123410480](C:\Users\bumsu\AppData\Roaming\Typora\typora-user-images\image-20200103123410480.png)
+![image-20200103123410480](.\img\image-20200103123410480.png)
 
 
 
