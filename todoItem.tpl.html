@@ -1,10 +1,10 @@
 <div class="input-group">
   <div class="input-group-prepend">
     <div class="input-group-text">
-      <input type="checkbox" ng-model="todo.completed" />
+      <input type="checkbox" ng-model="todo.completed" ng-click="update()"/>
     </div>
   </div>
-  <input type="text" ng-model="todo.title" class="form-control" />
+  <input type="text" ng-model="todo.title" ng-blur="update()" class="form-control" />
   <div class="input-group-append">
     <button class="btn btn-danger" type="button " ng-click="remove(todo)">삭제</button>
   </div>

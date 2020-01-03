@@ -10,4 +10,8 @@ angular.module('todo').controller('TodoCtrl', function($scope, todoStorage) {
 
     $scope.newTodoTitle = "";
   };
+  
+  $scope.update = function () {
+    todoStorage.update();
+  }
 });
