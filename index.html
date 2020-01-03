@@ -6,44 +6,24 @@
     <script data-require="bootstrap@4.0.5" data-semver="4.1.3" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script data-require="angular.js@1.6.6" data-semver="1.6.6" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="app.js"></script>
+    <script src="directives.js"></script>
+    <script src="controllers.js"></script>
   </head>
 
   <body ng-app="todo" ng-controller="TodoCtrl">
     <div class="container">
-      <h1>Todo</h1>
+      <todo-title></todo-title>
       
-      <form name="todoForm" ng-submit="add(newTodoTitle)">
-        <div class="input-group">
-          <input type="text" class="form-control" ng-model="newTodoTitle" placeholder="새로운 Todo를 입력하세요." minlength="3"/>
-          <div class="input-group-append">
-            <button class="btn btn-success" type="submit">추가</button>
-          </div>
-        </div>
-        <div ng-show="todoForm.$dirty && todoForm.$invalid">
-          <div class="alert alert-warning" role="alert">3글자 이상 입력하세요.</div>
-        </div>
-      </form>
+      <todo-form></todo-form>
       
       <ul class="list-unstyled">
         <li ng-repeat="todo in todos | filter:statusFilter">
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <div class="input-group-text">
-                <input type="checkbox" ng-model="todo.completed" />
-              </div>
-            </div>
-            <input type="text" ng-model="todo.title" class="form-control" />
-            <div class="input-group-append">
-              <button class="btn btn-danger" type="button " ng-click="remove(todo)">삭제</button>
-            </div>
-          </div>
-          <date>{{ todo.createdAt | date: 'yyyy-MM-dd HH:mm:ss' }}</date>
+          <todo-item></todo-item>
         </li>
       </ul>
-      <button class="btn btn-primary" ng-click="statusFilter={completed:true}">Completed</button>
-      <button class="btn btn-primary" ng-click="statusFilter={completed:false}">Active</button>
-      <button class="btn btn-primary" ng-click="statusFilter={}">All</button>
+    
+      <todo-filters></todo-filters>
     </div>
   </body>
 
